@@ -5,37 +5,23 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+  overflow-x: hidden;
 }
 
 header {
-  background: linear-gradient(45deg, #ff0080, #ff8c00);
-  padding: 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
 }
 
-h1 {
-  margin: 0;
-  font-size: 3em;
-}
-
-nav {
-  margin: 20px 0;
-}
-
-nav a {
-  color: #00FF00;
-  text-decoration: none;
-  margin: 0 15px;
-  font-size: 1.2em;
-}
-
-section {
-  padding: 20px;
-}
-
-.section-header {
-  font-size: 2em;
-  margin-bottom: 10px;
-  border-bottom: 2px solid #00FF00;
+.section {
+  padding-top: 80px; /* Adjust for fixed header */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 footer {

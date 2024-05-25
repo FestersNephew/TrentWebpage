@@ -1,44 +1,40 @@
 import React from 'react';
+import { Element } from 'react-scroll';
+import { useSpring, animated } from 'react-spring';
+import BurgerMenu from './BurgerMenu';
+import RealEstate from './components/RealEstate';
+import WebDev from './components/WebDev';
+import Web3Dev from './components/Web3Dev';
+import Farming from './components/Farming';
+import Family from './components/Family';
+import Reiki from './components/Reiki';
 import './App.css';
 
+const sections = [
+  { id: 'real-estate', component: <RealEstate /> },
+  { id: 'web-dev', component: <WebDev /> },
+  { id: 'web3-dev', component: <Web3Dev /> },
+  { id: 'farming', component: <Farming /> },
+  { id: 'family', component: <Family /> },
+  { id: 'reiki', component: <Reiki /> },
+];
+
 function App() {
+  const fadeIn = useSpring({ from: { opacity: 0 }, to: { opacity: 1 }, config: { duration: 2000 } });
+
   return (
     <div className="App">
       <header>
-        <h1>Trent Stephens</h1>
-        <nav>
-          <a href="#real-estate">Real Estate</a>
-          <a href="#web-dev">Web Dev</a>
-          <a href="#web3-dev">Web3 Dev</a>
-          <a href="#farming">Farming</a>
-          <a href="#family">Family</a>
-        </nav>
+        <BurgerMenu />
       </header>
 
-      <section id="real-estate">
-        <h2 className="section-header">Real Estate</h2>
-        <p>Welcome to my real estate world! I am a dedicated real estate agent in southern Vermont. Whether you're looking to buy, sell, or rent, I am here to help you every step of the way.</p>
-      </section>
-
-      <section id="web-dev">
-        <h2 className="section-header">Web Development</h2>
-        <p>As a web developer, I enjoy creating dynamic and responsive websites. My skills in HTML, CSS, and JavaScript allow me to build user-friendly and visually appealing web pages.</p>
-      </section>
-
-      <section id="web3-dev">
-        <h2 className="section-header">Web3 Development</h2>
-        <p>Web3 development is my passion. I explore blockchain technology and decentralized applications. My projects often involve Ethereum, IPFS, and smart contracts.</p>
-      </section>
-
-      <section id="farming">
-        <h2 className="section-header">Farming</h2>
-        <p>Farming is not just a job, but a way of life for me and my family. We raise rabbits, chickens, and sheep on our farm. We are committed to sustainable and organic farming practices.</p>
-      </section>
-
-      <section id="family">
-        <h2 className="section-header">Family</h2>
-        <p>I am a proud father of two teenagers and husband to an amazing hippy farmer wife. Our family values love, sustainability, and community.</p>
-      </section>
+      {sections.map(section => (
+        <Element key={section.id} name={section.id} className="section">
+          <animated.div style={fadeIn}>
+            {section.component}
+          </animated.div>
+        </Element>
+      ))}
 
       <footer>
         <p>© 2024 Trent Stephens. All rights reserved.</p>
