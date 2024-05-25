@@ -14,7 +14,7 @@ const Reiki = () => {
         </div>
         <div className="reiki-item"> {/* Page 2 */}
           <h2>Healing Sessions</h2>
-          <img src="/images/reiki-session.jpg" alt="Reiki Sessions" />
+          <img src={`${process.env.PUBLIC_URL}/images/reiki-session.jpg`} alt="Reiki Sessions" />
         </div>
         <div className="reiki-item"> {/* Page 3 */}
           <h2>Benefits of Reiki</h2>

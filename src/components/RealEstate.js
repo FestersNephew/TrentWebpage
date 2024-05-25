@@ -14,11 +14,11 @@ const RealEstate = () => {
         </div>
         <div className="real-estate-item"> {/* Page 2 */}
           <h2>Recent Sales</h2>
-          <img src="/images/recent-sales.jpg" alt="Recent Sales" />
+          <img src={`${process.env.PUBLIC_URL}/images/recent-sales.jpg`} alt="Recent Sales" />
         </div>
         <div className="real-estate-item"> {/* Page 3 */}
           <h2>Sales and Client Base</h2>
-          <img src="/images/sales-chart.jpg" alt="Sales Chart" />
+          <img src={`${process.env.PUBLIC_URL}/images/sales-chart.jpg`} alt="Sales Chart" />
         </div>
       </animated.div>
     </div>

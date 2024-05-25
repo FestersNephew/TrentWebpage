@@ -14,7 +14,7 @@ const Farming = () => {
         </div>
         <div className="farming-item"> {/* Page 2 */}
           <h2>Our Animals</h2>
-          <img src="/images/farm-animals.jpg" alt="Farm Animals" />
+          <img src={`${process.env.PUBLIC_URL}/images/farm-animals.jpg`} alt="Farm Animals" />
         </div>
         <div className="farming-item"> {/* Page 3 */}
           <h2>Organic Practices</h2>

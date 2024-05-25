@@ -14,11 +14,11 @@ const WebDev = () => {
         </div>
         <div className="web-dev-item"> {/* Page 2 */}
           <h2>Projects</h2>
-          <img src="/images/projects.jpg" alt="Projects" />
+          <img src={`${process.env.PUBLIC_URL}/images/projects.jpg`} alt="Projects" />
         </div>
         <div className="web-dev-item"> {/* Page 3 */}
           <h2>Technologies</h2>
-          <img src="/images/technologies.jpg" alt="Technologies" />
+          <img src={`${process.env.PUBLIC_URL}/images/technologies.jpg`} alt="Technologies" />
         </div>
       </animated.div>
     </div>

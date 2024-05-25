@@ -12,7 +12,7 @@ const sections = [
   { id: 'reiki', title: 'Reiki Practice' },
 ];
 
-const BurgerMenu = ({ sections = [] }) => (
+const BurgerMenu = () => (
   <Menu right>
     {sections.map(section => (
       <ScrollLink key={section.id} to={section.id} smooth={true} duration={1000}>
