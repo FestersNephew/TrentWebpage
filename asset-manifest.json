@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/TrentWebpage/static/css/main.57e4518e.css",
-    "main.js": "/TrentWebpage/static/js/main.a3a4506c.js",
+    "main.js": "/TrentWebpage/static/js/main.ce7a046c.js",
     "static/js/453.67ff48a9.chunk.js": "/TrentWebpage/static/js/453.67ff48a9.chunk.js",
     "index.html": "/TrentWebpage/index.html",
     "main.57e4518e.css.map": "/TrentWebpage/static/css/main.57e4518e.css.map",
-    "main.a3a4506c.js.map": "/TrentWebpage/static/js/main.a3a4506c.js.map",
+    "main.ce7a046c.js.map": "/TrentWebpage/static/js/main.ce7a046c.js.map",
     "453.67ff48a9.chunk.js.map": "/TrentWebpage/static/js/453.67ff48a9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.57e4518e.css",
-    "static/js/main.a3a4506c.js"
+    "static/js/main.ce7a046c.js"
   ]
 }
