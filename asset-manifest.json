@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/trent-personal-website/static/css/main.4eeb509a.css",
-    "main.js": "/trent-personal-website/static/js/main.db381837.js",
-    "static/js/453.2b9fea77.chunk.js": "/trent-personal-website/static/js/453.2b9fea77.chunk.js",
-    "index.html": "/trent-personal-website/index.html",
-    "main.4eeb509a.css.map": "/trent-personal-website/static/css/main.4eeb509a.css.map",
-    "main.db381837.js.map": "/trent-personal-website/static/js/main.db381837.js.map",
-    "453.2b9fea77.chunk.js.map": "/trent-personal-website/static/js/453.2b9fea77.chunk.js.map"
+    "main.css": "/TrentWebpage/static/css/main.57e4518e.css",
+    "main.js": "/TrentWebpage/static/js/main.5a456ac8.js",
+    "static/js/453.67ff48a9.chunk.js": "/TrentWebpage/static/js/453.67ff48a9.chunk.js",
+    "index.html": "/TrentWebpage/index.html",
+    "main.57e4518e.css.map": "/TrentWebpage/static/css/main.57e4518e.css.map",
+    "main.5a456ac8.js.map": "/TrentWebpage/static/js/main.5a456ac8.js.map",
+    "453.67ff48a9.chunk.js.map": "/TrentWebpage/static/js/453.67ff48a9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4eeb509a.css",
-    "static/js/main.db381837.js"
+    "static/css/main.57e4518e.css",
+    "static/js/main.5a456ac8.js"
   ]
 }
