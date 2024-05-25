@@ -18,7 +18,7 @@ const RealEstate = () => {
         </div>
         <div className="real-estate-item">
           <h2>Sales and Client Base</h2>
-          <img src={`${process.env.PUBLIC_URL}/images/sales-chart.jpg`} alt="Sales Chart" />
+          <img src={`${process.env.PUBLIC_URL}/images/sales-report.jpg`} alt="Sales Chart" />
         </div>
       </animated.div>
     </div>
