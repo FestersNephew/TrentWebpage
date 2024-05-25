@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/trent-personal-website/static/css/main.4eeb509a.css",
+    "main.js": "/trent-personal-website/static/js/main.db381837.js",
+    "static/js/453.2b9fea77.chunk.js": "/trent-personal-website/static/js/453.2b9fea77.chunk.js",
+    "index.html": "/trent-personal-website/index.html",
+    "main.4eeb509a.css.map": "/trent-personal-website/static/css/main.4eeb509a.css.map",
+    "main.db381837.js.map": "/trent-personal-website/static/js/main.db381837.js.map",
+    "453.2b9fea77.chunk.js.map": "/trent-personal-website/static/js/453.2b9fea77.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4eeb509a.css",
+    "static/js/main.db381837.js"
+  ]
+}
